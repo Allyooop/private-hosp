@@ -1,0 +1,11 @@
+.btn-feature {
+  
+  @extend .btn-link;
+  border: 2px solid;
+  
+  .btn-link:hover {
+    border: 2px solid;
+    border-color: desaturate ( $brand-primary, 10% )
+  }
+  
+}
